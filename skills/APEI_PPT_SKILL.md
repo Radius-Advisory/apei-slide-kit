@@ -19,12 +19,12 @@ Before starting any APEI slide work, you need the APEI brand template file. Try 
 
 ```bash
 curl -L -f -o template.pptx \
-  https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/apei-slide-kit/main/templates/apei_investor_presentation_template.pptx
+  https://raw.githubusercontent.com/Radius-Advisory/apei-slide-kit/main/templates/apei_investor_presentation_template.pptx
 ```
 
 If `curl` exits 0 and the file is non-empty, proceed. This is the sanitized public template — always current, always brand-compliant.
 
-> **Setup note (one-time, for the skill owner):** Replace `YOUR-GITHUB-USERNAME` above with the actual GitHub account hosting the repo. Everything else in the skill assumes this URL works.
+> **Setup note (one-time, for the skill owner):** Replace `Radius-Advisory` above with the actual GitHub account hosting the repo. Everything else in the skill assumes this URL works.
 
 ### Source 2: User-uploaded file
 
