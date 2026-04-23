@@ -1,6 +1,6 @@
 ---
 name: apei-pptx
-description: Apply these preferences whenever creating or editing a PowerPoint presentation for APEI (American Public Education, Inc.) or for Iam Williams working on APEI engagements. Read this file in addition to the standard pptx/SKILL.md. Triggers: any slide deck, board deck, investor deck, or .pptx request that references APEI, Iam, Angie, James K., James D., or William.
+description: "Apply these preferences whenever creating or editing a PowerPoint presentation for APEI (American Public Education, Inc.) or for Iam Williams working on APEI engagements. Read this file in addition to the standard pptx/SKILL.md."
 ---
 
 # APEI PPTX Skill
