@@ -19,7 +19,7 @@ Before starting any APEI slide work, you need the APEI brand template file. Try 
 
 ```bash
 curl -L -f -o template.pptx \
-  https://raw.githubusercontent.com/Radius-Advisory/apei-slide-kit/main/templates/apei_investor_presentation_template.pptx
+  https://raw.githubusercontent.com/Radius-Advisory/apei-slide-kit/main/templates/APEI_sanitized_ppttemplate.pptx
 ```
 
 If `curl` exits 0 and the file is non-empty, proceed. This is the sanitized public template — always current, always brand-compliant.
@@ -34,7 +34,7 @@ If the GitHub fetch fails (no network, repo moved, etc.), check the conversation
 ls /mnt/user-data/uploads/ 2>/dev/null | grep -i apei
 ```
 
-If a file named like `apei_investor_presentation_template*.pptx` exists there, use it.
+If a file named like `APEI_sanitized_ppttemplate*.pptx` exists there, use it.
 
 ### Source 3: Ask the user
 
@@ -42,7 +42,7 @@ If both sources above fail, stop and respond with:
 
 > I couldn't auto-fetch the APEI template from GitHub and don't see one uploaded. Please either:
 >
-> 1. Upload the template file (e.g. `apei_investor_presentation_template.pptx`) to this conversation, or
+> 1. Upload the template file (e.g. `APEI_sanitized_ppttemplate.pptx`) to this conversation, or
 > 2. Download it from APEI's Brandfolder (<https://brandfolder.com/s/9thk4vrzm8jhfmrjqwgpf8b5>) and upload it here.
 >
 > Once I have the template, I'll build the slides using its exact layouts.
